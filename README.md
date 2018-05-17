@@ -60,7 +60,7 @@ The other constraints were very strange and all in gravitational/teleport.
 | `>=1.0.0, <=19.0.0-g5d150e7` | github.com/cenkalti/backoff         | there is no version 19, just 2. |
 | `>=1.0.0, <=64.0.0-gb428fda` | github.com/julienschmidt/httprouter | there is no version 64          |
 
-This makes all of these constraints defacto `^`, bringing the total of non `^`ish constraints to 147 / 155 = 95%. Of the remainder 5%, they were all in binaries.
+This makes all of these constraints defacto `^`, bringing the total of `^`ish constraints to 147 / 155 = 95%. Of the remainder 5%, they were all in binaries.
 
 ### Version selection
 
